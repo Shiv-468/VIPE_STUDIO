@@ -5,15 +5,15 @@
 
 @font-face {
     font-family: 'Konexy Personal Use';
-    src: url('../dist/fonts/KonexyPersonalUse.otf');
+    src: url('../dist/fonts/KonexyPersonalUse.ttf');
 }
 @font-face {
     font-family: 'Gilroy-Light';
-    src: url('../dist/fonts/Gilroy-Light.otf');
+    src: url('../dist/fonts/Gilroy-Light.ttf');
 }
 @font-face {
     font-family: 'Gilroy-Bold';
-    src: url('../dist/fonts/Gilroy-ExtraBold.otf');
+    src: url('../dist/fonts/Gilroy-Bold.ttf');
 }
 
 .menulist.show {

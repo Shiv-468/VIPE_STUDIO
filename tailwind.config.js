@@ -10,7 +10,7 @@ module.exports = {
       fontFamily:{
         'Jost': ('"Jost", sans-serif'),
         'Inter': ('Inter'),
-        'Konexy': ['"Konexy Personal Use", sans-serif'],
+        'Konexy': ['"Konexy Personal Use"'],
         'Gilroy-Light': ('Gilroy-Light'),
         'Gilroy-Bold': ('Gilroy-Bold'),
       }

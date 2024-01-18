@@ -1394,6 +1394,10 @@ video {
   text-align: center;
 }
 
+.font-Gilroy-Bold{
+  font-family: Gilroy-Bold;
+}
+
 .font-Gilroy-Light{
   font-family: Gilroy-Light;
 }
@@ -1407,7 +1411,7 @@ video {
 }
 
 .font-Konexy{
-  font-family: "Konexy Personal Use", sans-serif;
+  font-family: "Konexy Personal Use";
 }
 
 .text-\[14px\]{
@@ -1585,19 +1589,19 @@ video {
 @font-face {
   font-family: 'Konexy Personal Use';
 
-  src: url('../dist/fonts/KonexyPersonalUse.otf');
+  src: url('../dist/fonts/KonexyPersonalUse.ttf');
 }
 
 @font-face {
   font-family: 'Gilroy-Light';
 
-  src: url('../dist/fonts/Gilroy-Light.otf');
+  src: url('../dist/fonts/Gilroy-Light.ttf');
 }
 
 @font-face {
   font-family: 'Gilroy-Bold';
 
-  src: url('../dist/fonts/Gilroy-ExtraBold.otf');
+  src: url('../dist/fonts/Gilroy-Bold.ttf');
 }
 
 .menulist.show {
