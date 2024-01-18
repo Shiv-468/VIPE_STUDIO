@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Jost:wght@400;500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Konexy Personal Use';
+    src: url('../dist/fonts/KonexyPersonalUse.otf');
+}
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../dist/fonts/Gilroy-Light.otf');
+}
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('../dist/fonts/Gilroy-ExtraBold.otf');
+}
+
+.menulist.show {
+    right: 0;
+}
+
+.menuicon.show .bar:nth-child(1) {
+    transform: translateY(5px) rotate(45deg);
+}
+
+.menuicon.show .bar:nth-child(2) {
+    display: none;
+}
+
+.menuicon.show .bar:nth-child(3) {
+    transform: translateY(-5px) rotate(-45deg);
+}
